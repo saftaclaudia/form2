@@ -1,0 +1,65 @@
+body{
+	font-family: arial;
+	font-size: 12px;
+}
+.wrapper{
+	margin:0 auto;
+}
+	.left-form,
+	.right-form{
+		float: left;
+		width: 45%;
+		padding: 0 10px;
+	}
+	.left-form div{
+		padding-top: 10px;
+	}
+		.background{
+		background-color: #dfe5ef;
+		display: block;
+		padding: 2px 0 2px 10px;
+		color:#000066;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		font-weight: bold;
+		}		
+		label{
+			width: 20%;
+			float:left;
+			text-align: right;
+			padding-right: 10px;
+			padding-left: 30px;
+			font-weight: bold;
+		}
+		input{
+			width: 150px;
+		}
+		.width1{
+			width:40px;
+			padding-left: 0;
+		}
+		.width2{
+			width: 50px;
+			margin-top: -4px;
+		}
+		.position{
+			width: 10px;
+		}
+		.width3{
+			width: 70px;
+		}
+		.width4{
+			width: 90px;
+		}
+		.confirm{
+			width: 48%;
+			padding-right: 0;
+			padding-left:0px; 
+			text-align: left;
+		}
+		.width5{
+			width: 20px;
+		}
+		.margin{
+			margin-top: -5px;
+		}
