@@ -13,8 +13,8 @@
 				<p class="background">Address</p>
 				<div class="clearfix">
 					<label for="gender-tutle">Anrede und Titel</label>
-					<label for="herr" class="width1"><input type="radio" id="herr" class="position">Herr</label>
-					<label for="frau" class="width1"><input type="radio" id="frau" class="position">Frau</label>
+					<label for="herr" class="width1"><input type="radio" id="herr" name="gender"class="position"> Herr</label>
+					<label for="frau" class="width1"><input type="radio" id="frau" name="gender" class="position">Frau</label>
 					<select class="width2" id="title">
 						<option value="dr">Dr</option>
 						<option value="Pf">Pf</option>
@@ -38,7 +38,7 @@
 				</div>
 				<div class="clearfix">
 					<label for="geburtsname">Geburtsname</label>
-					<input type="text" id="geburtsname">
+					<input type="text" id="geburtsname" >
 				</div>
 				<div class="clearfix">
 					<label for="stase" class="margin">Strase und Hausnummer</label>
@@ -52,7 +52,7 @@
 				</div>
 				<div class="clearfix">
 					<label for="date">Geburtsdatum</label>
-					<input type="text" id="date" class="width4">
+					<input type="date" min="2014-01-01" max="2014-12-31"  id="date" class="width4">
 				</div>
 				<div class="clearfix">
 					<label for="geburtsort">Geburtsort</label>
@@ -83,10 +83,75 @@
 				<input type="submit" class="button" value="Formular absenden">
 			</form>
 		</div>
-				
-
 		<div class="right-form">
-			<p class="background">Beruf</p>
+			<form id="right-form" action="processApplication.php" method="post">
+				<p class="background">Beruf</p>
+				<div class="clearfix">
+					<label for="art">Art der Beschaftigung</label>
+					<select id="art">
+						<option value="Rentner(in)/Pensionar(in)">Rentner(in)/Pensionar(in)</option>
+						<option value="bllllllllll">Blllllllll</option>
+					</select>
+				</div>
+				<div class="clearfix">
+					<label for="beruf"> Beruf</label>
+					<input id="beruf" type="text">
+				</div>
+				<div class="clearfix">
+					<label for="seit">ungekundigt beschaftigt seit</label>
+					<input id="seit" type="date" min="01-01-2001" max="12-31-2001">
+				</div>
+				<div class="clearfix">
+					<label for="monatl">Monatl.Nettoeinkommen</label>
+					<input id="monalt" type="text">
+				</div>
+				<p class="background">Kontakt/Einverstandnis & Werbung</p>
+				<div class="clearfix">
+					<label for="teltag">Tel.(tagsuber)</label>
+					<select id="teltag">
+						<option value="DE">DE</option>
+						<option value="ME">ME</option>
+					</select>
+					<input type="text" id="teltag1">
+					<input type="text" id="teltag2">
+				</div>
+				<div class="clearfix">
+					<label for="telber">Tel.(Beratung)</label>
+					<select id="telber">
+						<option value="DE">DE</option>
+						<option value="ME">ME</option>
+					</select>
+					<input type="text" id="telber1">
+					<input type="text" id="telber2">
+				</div>
+				<div class="clearfix">
+					<label for="confirmtel">Einverstandnis Telefonwerbung</label>
+					<input type="checkbox" id="confirmtel">
+				</div>
+				<div class="clearfix">
+					<label for="confirmjeder">jederzeit</label>
+					<input type="checkbox" id="confirmjeder">
+				</div>
+				<div class="clearfix">
+					<label for="tagen">An folgenden tagen/zu folgenden Zeiten</label>
+					<input type="text" id="tagen" placeholder="Montag Vormittag oder Freitag al">
+				</div>
+				<div class="clearfix">
+					<label for="email-address">Email-Adresse</label>
+					<input type="text" id="email-address" placeholder="max.mustermann@provider.de">
+				</div>
+				<div class="clearfix">
+					<label for="confirmemail">Einverstandnis Emailwebung</label>
+					<input type="checkbox" id="confirmemail">
+				</div>
+				<div class="clearfix">
+					<label for="cornfirm2">Der Kunde wiligt in die Ubermittlung der in der SCHUFA-Erklarung genannten Daten an die SCHUFA-Hoding AG ein.</label>
+					<label for="yes">ja</label>
+					<input id="yes" type="radio" name="confirm">
+					<label for="no">nein</label>
+					<input id="no" type="radio" name="confirm">
+				</div>
+			</form>
 		</div>
 	</div>
 </body>

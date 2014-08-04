@@ -33,6 +33,10 @@ body{
 		}
 		input{
 			width: 150px;
+			color:#610083;
+		}
+		select{
+			color:#610083;
 		}
 		.width1{
 			width:40px;
@@ -52,14 +56,24 @@ body{
 			width: 90px;
 		}
 		.confirm{
-			width: 48%;
+			width:53%;
 			padding-right: 0;
 			padding-left:0px; 
 			text-align: left;
+			color:#610083;
 		}
 		.width5{
 			width: 20px;
 		}
 		.margin{
 			margin-top: -5px;
+		}
+		.button{
+			width: 120px;
+			border-right:3px solid #75736e;
+			border-bottom: 3px solid #75736e;
+			border-top: 3px solid #f2f0ee;
+			border-left:3px solid #f2f0ee;
+			margin-top: 5px;
+			color:#610083;
 		}
