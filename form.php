@@ -95,7 +95,7 @@
 				</div>
 				<div class="clearfix">
 					<label for="beruf"> Beruf</label>
-					<input id="beruf" type="text">
+					<input id="beruf" type="text" placeholder="Musterjob">
 				</div>
 				<div class="clearfix">
 					<label for="seit" class="margin">ungekundigt beschaftigt seit</label>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="clearfix">
 					<label for="monatl" class="margin">Monatl. Nettoeinkommen</label>
-					<input id="monalt" type="text" class="width6">
+					<input id="monalt" type="text" class="width6" placeholder="5000">
 				</div>
 				<p class="background margintop">Kontakt/Einverstandnis & Werbung</p>
 				<div class="clearfix">
@@ -112,8 +112,8 @@
 						<option value="DE">DE</option>
 						<option value="ME">ME</option>
 					</select>
-					<input type="text" id="teltag1" class="width1">
-					<input type="text" id="teltag2" class="width4">
+					<input type="text" id="teltag1" class="width1" placeholder="040">
+					<input type="text" id="teltag2" class="width4" placeholder="123456">
 				</div>
 				<div class="clearfix">
 					<label for="telber">Tel.(Beratung)</label>
@@ -121,8 +121,8 @@
 						<option value="DE">DE</option>
 						<option value="ME">ME</option>
 					</select>
-					<input type="text" id="telber1" class="width1">
-					<input type="text" id="telber2" class="width4">
+					<input type="text" id="telber1" class="width1" placeholder="0177">
+					<input type="text" id="telber2" class="width4" placeholder="123456">
 				</div>
 				<div class="clearfix">
 					<label for="confirmtel" >Einverstandnis Telefonwerbung</label>
