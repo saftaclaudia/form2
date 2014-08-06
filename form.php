@@ -59,7 +59,7 @@
 					<input type="text" id="geburtsort">
 				</div>
 				<div class="clearfix">
-					<label for="familiestand">Familiestand</label>
+					<label for="familiestand" class="center">Familiestand</label>
 					<select id="stand">
 						<option value="ledig">ledig</option>
 						<option value="single">single</option>
@@ -67,7 +67,7 @@
 				</div >
 				<div class="clearfix inline"> 
 					<label class="confirm">Adress hat sich in den letzten e Jahren geander</label>
-					<input type="checkbox" id="confirm" class="width5">
+					<input type="checkbox" id="confirm" class="width5 center">
 				</div>
 				<p class="background">Bisherige Adresse</p>
 				<div class="clearfix">
@@ -126,14 +126,14 @@
 				</div>
 				<div class="clearfix">
 					<label for="confirmtel" >Einverstandnis Telefonwerbung</label>
-					<input type="checkbox" id="confirmtel" class="position">
+					<input type="checkbox" id="confirmtel" class="position center">
 				</div>
 				<div class="clearfix margintop">
 					<label for="confirmjeder">jederzeit</label>
 					<input type="checkbox" id="confirmjeder" class="position">
 				</div>
 				<div class="clearfix">
-					<label for="tagen" class="width25 margin">An folgenden tagen/zu folgenden Zeiten</label>
+					<label for="tagen" class="margin">An folgenden tagen / zu folgenden Zeiten</label>
 					<input type="text" id="tagen" placeholder="Montag Vormittag oder Freitag al">
 				</div>
 				<div class="clearfix">
@@ -142,12 +142,12 @@
 				</div>
 				<div class="clearfix">
 					<label for="confirmemail" class="margin">Einverstandnis Emailwebung</label>
-					<input type="checkbox" id="confirmemail" class="position">
+					<input type="checkbox" id="confirmemail" class="position center">
 				</div>
 				<div class="clearfix inline">
 					<label for="cornfirm2" class="confirm width100">Der Kunde wiligt in die Ubermittlung der in der SCHUFA-Erklarung genannten Daten an die SCHUFA-Hoding AG ein.</label>
-					<label for="yes" class="width1"><input id="yes" type="radio" name="confirm" class="position"> ja</label>
-					<label for="no" class="width1"><input id="no" type="radio" name="confirm" class="position">nein</label>	
+					<label for="yes" class="width1"><input id="yes" type="radio" name="confirm" class="position center "> ja</label>
+					<label for="no" class="width1"><input id="no" type="radio" name="confirm" class="position center ">nein</label>	
 				</div>
 			</form>
 		</div>
