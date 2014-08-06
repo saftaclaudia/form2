@@ -3,23 +3,15 @@ body{
 	font-size: 12px;
 }
 .wrapper{
-	width: 100%;
-	margin: auto auto;
+	margin:0 auto;
 }
 	.left-form,
 	.right-form{
 		float: left;
-		width: 40%;
+		width: 45%;
+		padding: 0 10px;
 	}
-	.left-form{
-		padding-right: 20px;
-		padding-left: 120px;
-	}
-	.right-form{
-		padding-left: 20px;
-	}
-	.left-form div,
-	.right-form div{
+	.left-form div{
 		padding-top: 10px;
 	}
 		.background{
@@ -29,12 +21,15 @@ body{
 		color:#000066;
 		margin-bottom: 10px;
 		margin-top: 10px;
+		font-weight: bold;
 		}		
 		label{
 			width: 20%;
 			float:left;
 			text-align: right;
 			padding-right: 10px;
+			padding-left: 30px;
+			font-weight: bold;
 		}
 		input{
 			width: 150px;
@@ -60,16 +55,12 @@ body{
 		.width4{
 			width: 90px;
 		}
-		.width6{
-			width: 100px;
-		}
 		.confirm{
-			width:45%;
+			width:53%;
 			padding-right: 0;
 			padding-left:0px; 
 			text-align: left;
 			color:#610083;
-			float: none;
 		}
 		.width5{
 			width: 20px;
@@ -86,26 +77,3 @@ body{
 			margin-top: 5px;
 			color:#610083;
 		}
-		.paddingtop3{
-			padding-left: 0px;
-			padding-top: 3px;
-		}
-		.margintop{
-			margin-top: 20px;
-		}
-		.width100{
-			width: 100%
-		}
-		.inline{
-			padding-right: 10px;
-		}
-		.inline label,
-		.inline input{
-			display: inline;
-			float: none;
-		}
-		.inline input{
-			padding-top: 10px;
-		}
-		
-		
