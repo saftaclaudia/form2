@@ -34,13 +34,17 @@ body{
 			float:left;
 			text-align: right;
 			padding-right: 10px;
+			vertical-align: middle;
+			margin-top: 3px;
 		}
 		input{
 			width: 150px;
 			color:#610083;
+			vertical-align: middle;
 		}
 		select{
 			color:#610083;
+			vertical-align: middle;
 		}
 		.width1{
 			width:40px;
@@ -48,10 +52,11 @@ body{
 		}
 		.width2{
 			width: 50px;
-			margin-top: -4px;
+		
 		}
 		.position{
 			width: 13px;
+			vertical-align: bottom;
 		}
 		.width3{
 			width: 70px;
@@ -85,10 +90,6 @@ body{
 			margin-top: 5px;
 			color:#610083;
 		}
-		.paddingtop3{
-			padding-left: 0px;
-			padding-top: 3px;
-		}
 		.margintop{
 			margin-top: 20px;
 		}
@@ -102,9 +103,12 @@ body{
 		.inline input{
 			float: none;
 		}
-		
+		.margin_top{
+			margin-top: 0;
+		}
 		.center{
 			margin-top: 5px;
 		}
+
 		
 		
